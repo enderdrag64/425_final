@@ -1,0 +1,44 @@
+@charset "UTF-8";
+body {
+  background-color: hotpink;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+a {
+  color:magenta
+}
+a:hover {
+  color:mediumaquamarine
+}
+h1 {
+  color:lemonchiffon
+}
+h1:hover {
+  color:black
+}
+h2 {
+  color:fuchsia;
+  border: 35px solid orangered;
+}
+h2:hover {
+  color:black
+}
+p {
+  color:chartreuse;
+  font-size: 28px;
+  border: 2px solid yellow;
+}
+tr:nth-child(even) {
+  background-color: cyan;
+}
+th {
+  background-color: goldenrod;
+  color: honeydew;
+}
+th, td {
+  padding: 1px;
+  text-align: right;
+}
+tr:hover {
+  background-color: black;
+}
+
