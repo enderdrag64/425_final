@@ -1,0 +1,39 @@
+@charset "UTF-8";
+body {
+  background-color: hotpink;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+a {
+
+}
+a:hover {
+
+}
+h1 {
+
+}
+h1:hover {
+
+}
+h2 {
+
+}
+h2:hover {
+
+}
+p {
+
+}
+tr:nth-child(even) {
+
+}
+th {
+
+}
+th, td {
+
+}
+tr:hover {
+
+}
+
