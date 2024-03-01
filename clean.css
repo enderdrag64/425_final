@@ -103,3 +103,21 @@ li.dropdown {
 .emptydollar{
 	color: #d9d184;
 }
+.gallery-grid {
+	display: grid;
+	grid-template-columns: auto auto auto;
+	grid-row-gap: 20px ;
+	justify-items: center;
+	align-items: start;
+	justify-content: space-between;
+}
+				
+.gallery-item {
+	width: 200px; /*should match the width of your images + width of border (if any) */
+	text-align: center;
+}    
+/* css for styling the p/caption under the image */      
+.gallery-item p {
+	margin: .25em 0;
+	line-height: 135%;
+}
