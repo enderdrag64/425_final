@@ -1,12 +1,12 @@
 @charset "UTF-8";
 body {
-	background: linear-gradient(0deg, #fff170 0%, #fffaca 100%);
+	background-image: url(images/background.jpg);
 	font-family: Garamond; font-size: 20px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 160%;
 	max-width: 900px;
 	margin: auto;
 }
 a {
-	color: black
+	color: white
 }
 a:hover {
 
@@ -24,7 +24,7 @@ h2:hover {
 
 }
 p {
-	color: #744704
+	color: white
 }
 th, tr, td {
 	text-align: left !important;
@@ -47,7 +47,7 @@ ul {
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
-	background-color: #cb9f5e;
+	background-color: rgba(255, 255, 255, 0.3); ;
 }
 li {
 	float: left;
@@ -158,5 +158,5 @@ li.dropdown {
 
 .mini-reviews {
     padding: 20px; 
-    background-color: #f9f9f9; 
+    background-color: rgba(255, 255, 255, 0.3); 
 }
