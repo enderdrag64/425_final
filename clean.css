@@ -1,5 +1,6 @@
 @charset "UTF-8";
 body {
+	background-color: black;
 	background-image: url(images/background.jpg);
 	font-family: Garamond; font-size: 20px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 160%;
 	max-width: 900px;
@@ -12,13 +13,13 @@ a:hover {
 
 }
 h1 {
-	color: #b16851
+	color: #38ff00
 }
 h1:hover {
 
 }
 h2 {
-	color: #927b38
+	color: #a5ff9d
 }
 h2:hover {
 
@@ -62,7 +63,7 @@ li a {
 }
 li a, .dropbtn {
 	display: inline-block;
-	color: #ffb953;
+	color: #44ff00;
 	text-align: center;
 	padding: 14px 16px;
 	text-decoration: none;
@@ -144,6 +145,14 @@ li.dropdown {
 	margin: .25em 0;
 	font-size: 25px
 	line-height: 135%;
+}
+
+.OSTtitle {
+	color: blue;
+}
+
+.Cuetitle {
+	color: red;
 }
 
 .vertical-content-grid {
